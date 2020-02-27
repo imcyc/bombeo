@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/bombeo/static/css/main.8b66f6fd.chunk.css",
+    "main.js": "/bombeo/static/js/main.8724286c.chunk.js",
+    "main.js.map": "/bombeo/static/js/main.8724286c.chunk.js.map",
+    "runtime-main.js": "/bombeo/static/js/runtime-main.f43ad4a9.js",
+    "runtime-main.js.map": "/bombeo/static/js/runtime-main.f43ad4a9.js.map",
+    "static/css/2.28ac8253.chunk.css": "/bombeo/static/css/2.28ac8253.chunk.css",
+    "static/js/2.1e522a5b.chunk.js": "/bombeo/static/js/2.1e522a5b.chunk.js",
+    "static/js/2.1e522a5b.chunk.js.map": "/bombeo/static/js/2.1e522a5b.chunk.js.map",
+    "index.html": "/bombeo/index.html",
+    "precache-manifest.c0f3461e8185d16b1f71dd9ac5fcab85.js": "/bombeo/precache-manifest.c0f3461e8185d16b1f71dd9ac5fcab85.js",
+    "service-worker.js": "/bombeo/service-worker.js",
+    "static/css/2.28ac8253.chunk.css.map": "/bombeo/static/css/2.28ac8253.chunk.css.map",
+    "static/css/main.8b66f6fd.chunk.css.map": "/bombeo/static/css/main.8b66f6fd.chunk.css.map",
+    "static/media/logo-imcyc.svg": "/bombeo/static/media/logo-imcyc.15ca9bfd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f43ad4a9.js",
+    "static/css/2.28ac8253.chunk.css",
+    "static/js/2.1e522a5b.chunk.js",
+    "static/css/main.8b66f6fd.chunk.css",
+    "static/js/main.8724286c.chunk.js"
+  ]
+}
