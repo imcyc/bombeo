@@ -52,7 +52,6 @@ class Capsulas extends Component {
               <hr/>
               <img src="http://18.219.47.222/apis/bombeo/2.JPG" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
               <hr/>
-              <img src="http://18.219.47.222/apis/vivienda/cimentacion/12_Curado.png" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
               {isOpen && (
                 <Lightbox
                   mainSrc={images[photoIndex]}

@@ -24,26 +24,8 @@ const SideMenu = () => {
                 <Link to="/cimentacion">CIMENTACIÓN</Link>
             </NavText>
         </NavItem>
-        <NavItem eventKey="home">
-            <NavIcon>
-                <Link to="/muros">
-                    <i className="lni-brick" style={{ fontSize: '1.75em' }}></i>
-                </Link>
-            </NavIcon>
-            <NavText>
-                <Link to="/muros">MUROS</Link>
-            </NavText>
-        </NavItem>
-        <NavItem eventKey="home">
-            <NavIcon>
-                <Link to="/capsulas">
-                    <i className="lni-arrow-right-circle" style={{ fontSize: '1.75em' }}></i>
-                </Link>
-            </NavIcon>
-            <NavText>
-                <Link to="/capsulas">CÁPSULAS</Link>
-            </NavText>
-        </NavItem>
+        
+        
     </SideNav.Nav>
 </SideNav>
         </div>
