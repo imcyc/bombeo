@@ -17,7 +17,7 @@ const SideMenu = () => {
         <NavItem eventKey="home">
             <NavIcon>
                 <Link to="/cimentacion">
-                    <i className="lni-shovel" style={{ fontSize: '1.75em' }}></i>
+                    <i className="lni-grid" style={{ fontSize: '1.75em' }}></i>
                 </Link>
             </NavIcon>
             <NavText>
