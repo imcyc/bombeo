@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4093b09ee1118d68f342dd9c2ded4dac",
+    "revision": "004590b4e203b9eb2fe0d0b7da496bea",
     "url": "/bombeo/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bombeo/static/css/2.28ac8253.chunk.css"
   },
   {
-    "revision": "37eb1c948d1e2637d9ab",
+    "revision": "71756e1491fd234f2a4e",
     "url": "/bombeo/static/css/main.8b66f6fd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bombeo/static/js/2.1e522a5b.chunk.js"
   },
   {
-    "revision": "37eb1c948d1e2637d9ab",
-    "url": "/bombeo/static/js/main.34312c96.chunk.js"
+    "revision": "71756e1491fd234f2a4e",
+    "url": "/bombeo/static/js/main.51107afd.chunk.js"
   },
   {
     "revision": "1768958dfe742f6e1e60",
