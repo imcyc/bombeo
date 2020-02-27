@@ -11,7 +11,7 @@ const Home = (props) => {
           <div className="wrapper fadeInDown" style={{zIndex: '10'}}>
             <div id="formContent">
                 <div className="fadeIn first">
-                  <h1><span className="azul">MANUAL PARA LA CONSTRUCCIÓN DE VIVIENDA INDUSTRIALIZADA</span></h1>
+                  <h1><span className="azul">MANUAL DEL BOMBEADOR DE CONCRETO</span></h1>
                 </div>
                 <form onSubmit={props.login}>
                   

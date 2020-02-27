@@ -7,8 +7,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const images = [
-  'http://18.219.47.222/apis/vivienda/capsula/INFOGRAFIAS/Control_de_calidad_concreto.png',
-  'http://18.219.47.222/apis/vivienda/capsula/INFOGRAFIAS/Control_de_calidad_terraceria.png',
+  'http://18.219.47.222/apis/bombeo/1.JPG',
+  'http://18.219.47.222/apis/bombeo/2.JPG',
+  'http://18.219.47.222/apis/bombeo/3.JPG',
+  'http://18.219.47.222/apis/bombeo/4.JPG',
+  'http://18.219.47.222/apis/bombeo/5.JPG'
 ];
 
 class Capsulas extends Component {
@@ -33,7 +36,7 @@ class Capsulas extends Component {
             <h1><i className="lni-chevron-right"></i> CÁPSULAS</h1>
             <hr/>
             <Player
-              src="http://18.219.47.222/apis/vivienda/capsula/Capsula.mp4"
+              src="http://18.219.47.222/apis/bombeo/bombeo.MP4"
               autoPlay={true}
             >
               <BigPlayButton position="center" />

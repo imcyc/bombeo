@@ -7,19 +7,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const images = [
-  'http://18.219.47.222/apis/vivienda/cimentacion/1_Certificacion_plataforma.png',
-  'http://18.219.47.222/apis/vivienda/cimentacion/2_Trazo.png',
-  'http://18.219.47.222/apis/vivienda/cimentacion/3_Excavacion.png',
-  'http://18.219.47.222/apis/vivienda/cimentacion/4_Instalacion_hidrosanitaria.png',
-  'http://18.219.47.222/apis/vivienda/cimentacion/5_Base para cimentacion.png',
-  'http://18.219.47.222/apis/vivienda/cimentacion/6.0_habilitado_colocacion.png',
-  'http://18.219.47.222/apis/vivienda/cimentacion/6.1_habilitado_colocacion.png',
-  'http://18.219.47.222/apis/vivienda/cimentacion/7_colocacion_silletas.png',
-  'http://18.219.47.222/apis/vivienda/cimentacion/8_Colocacion_electrica.png',
-  'http://18.219.47.222/apis/vivienda/cimentacion/9_Cimbra perimetral.png',
-  'http://18.219.47.222/apis/vivienda/cimentacion/10.0_Compactacion_concreto.png',
-  'http://18.219.47.222/apis/vivienda/cimentacion/11_Nivelacion_concreto.png',
-  'http://18.219.47.222/apis/vivienda/cimentacion/12_Curado.png',
+  'http://18.219.47.222/apis/bombeo/1.JPG',
+  'http://18.219.47.222/apis/bombeo/2.JPG',
+  'http://18.219.47.222/apis/bombeo/3.JPG',
+  'http://18.219.47.222/apis/bombeo/4.JPG',
+  'http://18.219.47.222/apis/bombeo/5.JPG'
 ];
 
 class Capsulas extends Component {
@@ -41,10 +33,10 @@ class Capsulas extends Component {
           </Col>
           <Col xs={12} sm={8} md={8} style={{padding: '0'}}>
             <hr/>
-            <h1><i className="lni-chevron-right"></i> CIMENTACIÓN</h1>
+            <h1><i className="lni-chevron-right"></i> MANUAL DEL BOMBEADOR DE CONCRETO</h1>
             <hr/>
             <Player
-              src="http://18.219.47.222/apis/vivienda/cimentacion/Cimentacion.mp4"
+              src="http://18.219.47.222/apis/bombeo/bombeo.MP4"
               autoPlay={true}
             >
               <BigPlayButton position="center" />
@@ -56,31 +48,9 @@ class Capsulas extends Component {
             <h1><i className="lni-chevron-right"></i> INFOGRAFÍAS</h1>
             <hr/>
             <div style={{maxHeight: '500px', overflow: 'auto'}} onClick={() => this.setState({ isOpen: true })}>
-              <img src="http://18.219.47.222/apis/vivienda/cimentacion/1_Certificacion_plataforma.png" alt="" style={{width: '100%'}}/>
+              <img src="http://18.219.47.222/apis/bombeo/1.JPG" alt="" style={{width: '100%'}}/>
               <hr/>
-              <img src="http://18.219.47.222/apis/vivienda/cimentacion/2_Trazo.png" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
-              <hr/>
-              <img src="http://18.219.47.222/apis/vivienda/cimentacion/3_Excavacion.png" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
-              <hr/>
-              <img src="http://18.219.47.222/apis/vivienda/cimentacion/4_Instalacion_hidrosanitaria.png" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
-              <hr/>
-              <img src="http://18.219.47.222/apis/vivienda/cimentacion/5_Base para cimentacion.png" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
-              <hr/>
-              <img src="http://18.219.47.222/apis/vivienda/cimentacion/6.0_habilitado_colocacion.png" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
-              <hr/>
-              <img src="http://18.219.47.222/apis/vivienda/cimentacion/6.1_habilitado_colocacion.png" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
-              <hr/>
-              <img src="http://18.219.47.222/apis/vivienda/cimentacion/7_colocacion_silletas.png" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
-              <hr/>
-              <img src="http://18.219.47.222/apis/vivienda/cimentacion/8_Colocacion_electrica.png" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
-              <hr/>
-              <img src="http://18.219.47.222/apis/vivienda/cimentacion/9_Cimbra perimetral.png" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
-              <hr/>
-              <img src="http://18.219.47.222/apis/vivienda/cimentacion/10.0_Compactacion_concreto.png" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
-              <hr/>
-              <img src="http://18.219.47.222/apis/vivienda/cimentacion/10.1_Compactacion_concreto.png" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
-              <hr/>
-              <img src="http://18.219.47.222/apis/vivienda/cimentacion/11_Nivelacion_concreto.png" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
+              <img src="http://18.219.47.222/apis/bombeo/2.JPG" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
               <hr/>
               <img src="http://18.219.47.222/apis/vivienda/cimentacion/12_Curado.png" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
               {isOpen && (
