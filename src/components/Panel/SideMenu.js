@@ -21,7 +21,7 @@ const SideMenu = () => {
                 </Link>
             </NavIcon>
             <NavText>
-                <Link to="/cimentacion">CIMENTACIÓN</Link>
+                <Link to="/cimentacion">SEGURIDAD EN BOMBEO</Link>
             </NavText>
         </NavItem>
         
