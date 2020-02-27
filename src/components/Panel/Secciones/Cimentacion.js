@@ -51,11 +51,12 @@ class Capsulas extends Component {
               <img src="http://18.219.47.222/apis/bombeo/1.JPG" alt="" style={{width: '100%'}}/>
               <hr/>
               <img src="http://18.219.47.222/apis/bombeo/2.JPG" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
-              <img src="http://18.219.47.222/apis/bombeo/3.JPG" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
-              <img src="http://18.219.47.222/apis/bombeo/4.JPG" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
-              <img src="http://18.219.47.222/apis/bombeo/5.JPG" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
-              <img src="http://18.219.47.222/apis/bombeo/6.JPG" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
               <hr/>
+              <img src="http://18.219.47.222/apis/bombeo/3.JPG" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
+              <hr/>
+              <img src="http://18.219.47.222/apis/bombeo/4.JPG" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
+              <hr/>
+              <img src="http://18.219.47.222/apis/bombeo/5.JPG" alt="" style={{width: '100%'}} onClick={() => this.setState({ isOpen: true })}/>
               {isOpen && (
                 <Lightbox
                   mainSrc={images[photoIndex]}
