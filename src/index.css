@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,400,700,900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Big Shoulders Text', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #263138;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  color: #304d89;
+  transition: all 1s;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #6db33f;
+}

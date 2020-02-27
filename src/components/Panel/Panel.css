@@ -1,0 +1,15 @@
+.contenido {
+  margin-left: 70px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  height: 100vh;
+}
+
+.contenido h1 {
+  padding-top: 15px;
+}
+
+p.intro {
+  font-size: 1em;
+  text-align: justify;
+}
